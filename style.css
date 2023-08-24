@@ -10,17 +10,6 @@ header {
 
 img {
   width: 200px;
-  position: relative;
-  top: 90px;
-}
-
-.licoes {
-  position: relative;
-  top: 130px;
-}
-
-footer {
-  position: relative;
 }
 
 footer ul {
