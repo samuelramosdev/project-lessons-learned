@@ -1,15 +1,23 @@
 * {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 header {
   top: 0;
   position: fixed;
   z-index: 2;
+  height: 100px;
+}
+
+.foto_desenvolvedor {
+  text-align: center;
 }
 
 img {
   width: 200px;
+  border-radius: 100px;
+  margin: 100px auto 0;
 }
 
 footer ul {
@@ -23,4 +31,34 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
+}
+
+.jornada-na-trybe {
+  display: flex;
+}
+
+.lado-esquerdo {
+  flex: 0.6;
+  padding: 0 20px 0 15px;
+}
+
+.lado-direito {
+  flex: 0.4;
+  padding: 0 15px 0 25px;
+}
+
+.licoes {
+  display: flex;
+}
+
+#licoes_a_aprender {
+  flex-direction: 0.5;
+  padding: 50px;
+  list-style: none;
+}
+
+#licoes_aprendidas {
+  flex-direction: 0.5;
+  padding: 50px;
+  list-style: none;
 }
